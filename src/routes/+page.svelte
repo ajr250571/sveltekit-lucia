@@ -15,7 +15,7 @@
 <div class="flex min-h-screen flex-col items-center justify-center gap-4">
 	<div class="mt-2">
 		<form method="post" use:enhance>
-			<div class="flex w-96 justify-between my-2 border-b-2 py-2">
+			<div class="flex w-96 justify-between my-2 border-b-2 py-2 px-2">
 				<p class="text-3xl font-bold text-left">Hola, {$page.data?.username}</p>
 				<button class="btn btn-secondary text-right">Logout</button>
 			</div>

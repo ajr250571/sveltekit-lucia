@@ -12,14 +12,8 @@ export const POST: RequestHandler = async ({ request }) => {
 	const { user } = await lucia.validateSession(sessionId);
 	if (user) {
 		await lucia.invalidateSession(sessionId);
-		return Response.json(
-			{ message: 'Logout' },
-			{
-				status: 200
-			}
-		);
+		return Response.json({ message: 'Logout' }, { status: 200 });
 	}
-
 	return new Response(null, {
 		status: 401
 	});

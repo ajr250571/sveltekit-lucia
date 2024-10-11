@@ -1,5 +1,5 @@
-import axios from 'axios';
+import { getUsersApi } from '$lib/api';
+
 export async function getUsers() {
-	const users = axios.get('/api/user').then((res) => res.data);
-	return users;
+	return await getUsersApi();
 }

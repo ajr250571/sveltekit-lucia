@@ -3,7 +3,7 @@ import { lucia } from '$lib/server/auth';
 import { fail, redirect } from '@sveltejs/kit';
 import { verify } from '@node-rs/argon2';
 import type { Actions } from './$types';
-import { prisma } from '$lib/db.server';
+import { prisma } from '$lib/server/db.server';
 
 export const actions: Actions = {
 	default: async (event) => {

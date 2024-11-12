@@ -21,3 +21,39 @@ model Session {
 
   user User @relation(references: [id], fields: [userId], onDelete: Cascade)
 }
+
+enum Status {
+  Activo
+  Inactivo
+}
+
+model Personal {
+  id        String      @id @default(cuid())
+  nombre    String
+  dni       String      @unique
+  legajo    String      @unique
+  email     String
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+  status    Status      @default(Activo)
+  habilidad Habilidad[]
+}
+
+model Habilidad {
+  id       String     @id @default(cuid())
+  nombre   String
+  personal Personal[]
+}
+
+// prisma/schema.prisma
+model Author {
+  id    Int    @id @default(autoincrement())
+  name  String
+  books Book[]
+}
+
+model Book {
+  id      Int      @id @default(autoincrement())
+  title   String
+  authors Author[]
+}

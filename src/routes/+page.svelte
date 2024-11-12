@@ -1,26 +1,30 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
 	import type { UserPlaceholder } from '$lib/models';
 	import { getUsersPlaceholder } from '$lib/services';
+	import type { PageServerData } from './$types';
+
+	export let data: PageServerData;
 
 	let users: UserPlaceholder[] = [];
 	onMount(async () => {
-		users = await getUsersPlaceholder();
+		users = await getUsersPlaceholder().catch((error) => new Error(error));
 	});
 </script>
 
-<div class="flex min-h-screen flex-col items-center justify-center gap-4">
+<div class="flex min-h-screen flex-col items-center gap-4">
 	<div class="mt-2">
 		<form method="post" use:enhance>
 			<div class="flex w-96 justify-between my-2 border-b-2 py-2 px-2">
-				<p class="text-3xl font-bold text-left">Hola, {$page.data?.username}</p>
+				<p class="text-3xl font-bold text-left">{data.username.toUpperCase()}</p>
 				<button class="btn btn-secondary text-right">Logout</button>
 			</div>
 		</form>
-		{#if users.length > 0}
+		{#await users}
+			<p>Cargando ...</p>
+		{:then users}
 			<h1 class="text-3xl font-bold m-2">Users</h1>
 			{#each users as user}
 				<div class="card card-compact bg-green-900 shadow-xl m-2">
@@ -36,8 +40,8 @@
 					</div>
 				</div>
 			{/each}
-		{:else}
-			<p class="text-3xl font-bold text-center opacity-50 mt-20">No users found ...</p>
-		{/if}
+		{:catch error}
+			<p>{error.message}</p>
+		{/await}
 	</div>
 </div>

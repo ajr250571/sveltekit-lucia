@@ -1,0 +1,453 @@
+{
+    "authors": [
+      {
+        "id": 1,
+        "name": "Gabriel García Márquez",
+        "books": [
+          "Cien años de soledad",
+          "El amor en los tiempos del cólera",
+          "Crónica de una muerte anunciada"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jorge Luis Borges",
+        "books": [
+          "El Aleph",
+          "Ficciones",
+          "El libro de arena"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Isabel Allende",
+        "books": [
+          "La casa de los espíritus",
+          "Eva Luna",
+          "Paula"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Mario Vargas Llosa",
+        "books": [
+          "La ciudad y los perros",
+          "La fiesta del chivo",
+          "Conversación en La Catedral"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Julio Cortázar",
+        "books": [
+          "Rayuela",
+          "Bestiario",
+          "Las armas secretas"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Virginia Woolf",
+        "books": [
+          "Mrs. Dalloway",
+          "Al faro",
+          "Una habitación propia"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Ernest Hemingway",
+        "books": [
+          "El viejo y el mar",
+          "Por quién doblan las campanas",
+          "Fiesta"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "J.K. Rowling",
+        "books": [
+          "Harry Potter y la piedra filosofal",
+          "Harry Potter y la cámara secreta",
+          "Harry Potter y el prisionero de Azkaban"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Miguel de Cervantes",
+        "books": [
+          "Don Quijote de la Mancha",
+          "Novelas ejemplares",
+          "Los trabajos de Persiles y Sigismunda"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Jane Austen",
+        "books": [
+          "Orgullo y prejuicio",
+          "Emma",
+          "Sentido y sensibilidad"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Franz Kafka",
+        "books": [
+          "La metamorfosis",
+          "El proceso",
+          "El castillo"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "George Orwell",
+        "books": [
+          "1984",
+          "Rebelión en la granja",
+          "Homenaje a Cataluña"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Pablo Neruda",
+        "books": [
+          "Veinte poemas de amor y una canción desesperada",
+          "Residencia en la tierra",
+          "Canto general"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Fyodor Dostoevsky",
+        "books": [
+          "Crimen y castigo",
+          "Los hermanos Karamazov",
+          "El idiota"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "William Shakespeare",
+        "books": [
+          "Hamlet",
+          "Romeo y Julieta",
+          "Macbeth"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Albert Camus",
+        "books": [
+          "El extranjero",
+          "La peste",
+          "El mito de Sísifo"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Haruki Murakami",
+        "books": [
+          "Tokio blues",
+          "Kafka en la orilla",
+          "1Q84"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Oscar Wilde",
+        "books": [
+          "El retrato de Dorian Gray",
+          "La importancia de llamarse Ernesto",
+          "El príncipe feliz y otros cuentos"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Emily Brontë",
+        "books": [
+          "Cumbres borrascosas",
+          "Poemas completos"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Charles Dickens",
+        "books": [
+          "Grandes esperanzas",
+          "Oliver Twist",
+          "Historia de dos ciudades"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Leo Tolstoy",
+        "books": [
+          "Guerra y paz",
+          "Anna Karenina",
+          "La muerte de Iván Ilich"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Edgar Allan Poe",
+        "books": [
+          "El cuervo",
+          "Los crímenes de la calle Morgue",
+          "El gato negro"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Victor Hugo",
+        "books": [
+          "Los miserables",
+          "Nuestra Señora de París",
+          "El hombre que ríe"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "James Joyce",
+        "books": [
+          "Ulises",
+          "Dublineses",
+          "Retrato del artista adolescente"
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Mary Shelley",
+        "books": [
+          "Frankenstein",
+          "El último hombre",
+          "Mathilda"
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Gustave Flaubert",
+        "books": [
+          "Madame Bovary",
+          "La educación sentimental",
+          "Salammbô"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Federico García Lorca",
+        "books": [
+          "Romancero gitano",
+          "Poeta en Nueva York",
+          "La casa de Bernarda Alba"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Mark Twain",
+        "books": [
+          "Las aventuras de Tom Sawyer",
+          "Las aventuras de Huckleberry Finn",
+          "Un yanqui en la corte del Rey Arturo"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Agatha Christie",
+        "books": [
+          "Asesinato en el Orient Express",
+          "Muerte en el Nilo",
+          "Diez negritos"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Antoine de Saint-Exupéry",
+        "books": [
+          "El principito",
+          "Vuelo nocturno",
+          "Tierra de hombres"
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Hermann Hesse",
+        "books": [
+          "Siddharta",
+          "El lobo estepario",
+          "El juego de los abalorios"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Umberto Eco",
+        "books": [
+          "El nombre de la rosa",
+          "El péndulo de Foucault",
+          "La isla del día de antes"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Ray Bradbury",
+        "books": [
+          "Fahrenheit 451",
+          "Crónicas marcianas",
+          "El vino del estío"
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Virginia Woolf",
+        "books": [
+          "Las olas",
+          "Orlando",
+          "La señora Dalloway"
+        ]
+      },
+      {
+        "id": 35,
+        "name": "José Saramago",
+        "books": [
+          "Ensayo sobre la ceguera",
+          "La caverna",
+          "Todos los nombres"
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Milan Kundera",
+        "books": [
+          "La insoportable levedad del ser",
+          "El libro de la risa y el olvido",
+          "La inmortalidad"
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Julio Verne",
+        "books": [
+          "Veinte mil leguas de viaje submarino",
+          "La vuelta al mundo en ochenta días",
+          "Viaje al centro de la Tierra"
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Alejandra Pizarnik",
+        "books": [
+          "Árbol de Diana",
+          "Los trabajos y las noches",
+          "Extracción de la piedra de locura"
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Stephen King",
+        "books": [
+          "El resplandor",
+          "It",
+          "Carrie"
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Octavio Paz",
+        "books": [
+          "El laberinto de la soledad",
+          "Piedra de sol",
+          "El arco y la lira"
+        ]
+      },
+      {
+        "id": 41,
+        "name": "Arthur Conan Doyle",
+        "books": [
+          "Estudio en escarlata",
+          "El sabueso de los Baskerville",
+          "Las aventuras de Sherlock Holmes"
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Marguerite Yourcenar",
+        "books": [
+          "Memorias de Adriano",
+          "El tiro de gracia",
+          "Alexis o el tratado del inútil combate"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Roberto Bolaño",
+        "books": [
+          "2666",
+          "Los detectives salvajes",
+          "Estrella distante"
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Juan Rulfo",
+        "books": [
+          "Pedro Páramo",
+          "El llano en llamas",
+          "El gallo de oro"
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Simone de Beauvoir",
+        "books": [
+          "El segundo sexo",
+          "Los mandarines",
+          "La mujer rota"
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Jorge Franco",
+        "books": [
+          "Rosario Tijeras",
+          "Paraíso Travel",
+          "El mundo de afuera"
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Elena Poniatowska",
+        "books": [
+          "La noche de Tlatelolco",
+          "Hasta no verte Jesús mío",
+          "Tinísima"
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Philip K. Dick",
+        "books": [
+          "¿Sueñan los androides con ovejas eléctricas?",
+          "Ubik",
+          "El hombre en el castillo"
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Alfonsina Storni",
+        "books": [
+          "El dulce daño",
+          "Ocre",
+          "Mundo de siete pozos"
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Carlos Fuentes",
+        "books": [
+          "La muerte de Artemio Cruz",
+          "Aura",
+          "La región más transparente"
+        ]
+      }
+    ]
+  }
